@@ -1,0 +1,157 @@
+div {
+  border-radius: 5px;
+}
+
+table{
+	margin-left: 20px;
+}
+
+th {
+	width: 250px;
+	text-align: left;
+	font-family:"Arial";
+	text-decoration: none;
+}
+
+h2 {
+	color: purple;
+}
+
+#header {
+  position: fixed;
+  z-index: 1;
+  margin-top: -10px;
+	margin-bottom: 10px;
+  height: 40px;
+  width: 500px;
+  background-color: purple;
+	text-align: bottom;
+}
+
+#name {
+  float: left;
+  margin-left: 5px;
+  padding-top: 5px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#big-name {
+	border: dashes black;
+	font-size: 25px;
+	font-family: Verdana, sans-serif;
+}
+
+#email {
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#photo {
+	overflow: hidden;
+	display: inline-block;
+	width: 170.50px;
+	height: 206.91px;
+}
+
+#time {
+	margin-left: 20px;
+}
+
+p, img, h2 {	
+	margin-left: 10px; 
+}
+
+p {
+	font-family:"Arial"; 
+	margin-top: -10px;
+	}
+
+h3, h4 {
+	margin-left: 5px;
+	font-family: Verdana, sans-serif;
+}
+
+li {
+	list-style-type: circle;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.left {
+	position: relative;
+  float: left;
+	margin: 50px 0 10px 0px;
+  height: 80%;
+  width: 20%;
+  background-color: #B9D7D9;
+}
+
+.left img {
+	overflow: hidden;
+	display: inline-block;
+	width: 148.50px;
+	height: 206.91px;
+}
+
+.right{
+	position: relative;
+  float: right;
+  margin: 50px 50px 10px 5px;
+  height: 80%;
+  width: 75%;
+  background-color: #F9F3DB;  
+}
+
+
+.right p {
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-family: "Arial";
+	color: #000000;
+}
+
+.right h2, h3, h4 {
+	margin-left: 20px;
+}
+
+.right img {
+	overflow: hidden;
+	display: inline-block;
+	margin: 0.00px 0.00px;
+	border: 0.00px solid #000000;
+	transform: rotate(0.00rad) translateZ(0px);
+	-webkit-transform: rotate(0.00rad) translateZ(0px);
+	width: 282px;
+	height: 200px;
+}
+
+#footer {
+	position:relative;
+  clear: both;
+  height: 50px;
+  width: 95%;
+  background-color: purple;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+#footer a {
+	color: #ffffff;-
+}
+
+#footer p {
+	position: relative;
+	padding-top: 15px;
+	color: #ffffff;
+}
