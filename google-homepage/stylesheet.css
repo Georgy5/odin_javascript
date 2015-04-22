@@ -1,0 +1,164 @@
+.header {
+  float: right;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 10px;
+}
+
+.header ul {
+  display: inline;
+}
+
+.header ul li {
+  display: inline;
+  padding: 0 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.header ul li .sign-in {
+  width: 79px;
+  height: 33px;
+  border: none;
+  background-color: #4486F8;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header ul li img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 225px;
+}
+
+.logo img {
+	width: 550px;
+	
+}
+
+form {
+	text-align: center;
+  margin: 20px;
+  position: relative;
+}
+
+form img {
+	position: relative;
+  left: -30px;
+  top: 10px;
+}
+
+form input:first-child {
+	width: 600px;
+  height: 28px;
+  border-color: #4684EE;
+  border-style: solid;
+}
+
+.search .searchOptions {
+	text-align: center;
+}
+
+.search .searchOptions button {
+	height: 30px;
+	width: auto;
+	background-color: #F5F5F5;
+	border-style: solid;
+	border-color: #c6c6c6;
+	margin: 0 11px 0 8px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 45px;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #E4E4E4;
+	color: #666666;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.footer .nav-left {
+	float: left;
+	padding: 19px;
+}
+
+.footer .nav-left ul {
+	display: inline;
+}
+
+.footer .nav-left ul li {
+	display: inline;
+	padding: 0 10px;
+}
+
+.footer .nav-right {
+	float: right;
+	padding: 19px;
+}
+
+.footer .nav-right ul {
+	display: inline;
+}
+
+.footer .nav-right ul li {
+	display: inline;
+	padding: 0 10px;s
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(100,100,100);
+  padding: 0.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#apps {
+  width: 16px;
+  height: 16px;
+  background: url("apps.png");
+  display: inline-block;
+  vertical-align: text-bottom;
+  cursor: default;
+}
+#apps:hover {
+  width: 16px;
+  height: 16px;
+  background: url("apps-hover.png");
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: text-bottom;
+  cursor: default;
+}
+
+#circle {
+  width: 50px;
+  height: 50px;
+  background: url("account.png");
+  display: inline-block;
+  text-decoration: none;
+  cursor: default;
+  position: relative;
+  top: 20px;
+}
